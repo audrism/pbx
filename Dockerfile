@@ -1,6 +1,6 @@
 FROM CENTOS:6
 
-RUB cd /root && \
+RUN cd /root && \
    yum -y update && \
    yum -y install net-tools nano wget tar 
    
