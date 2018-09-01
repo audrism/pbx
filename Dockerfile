@@ -1,4 +1,4 @@
-FROM CENTOS:6
+FROM centos:6
 
 RUN cd /root && \
    yum -y update && \
